@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hero{
+    background:url(images/hero-section.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 365px;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    }
+
+    .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.card:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-brown {
+  background-color: #8B4513;
+  color: white;
+  border: none;
+}
+
+.btn-brown:hover {
+  background-color: #A0522D;
+  color: white;
+}
+
